@@ -1,0 +1,598 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-y: auto;
+}
+body .body1 {
+     background-color: #FEFCFB;
+}
+.body1 .first {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.first .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first .header .left {
+    display: flex;
+    align-items: center;
+}
+
+.first .header .left p {
+    font-size: 18px;
+    font-family: 'Volkhov', serif !important;
+}
+.first .header .left img {
+    height: 14px;
+    margin-left: 5px;
+}
+.first .header .right {
+    display: flex;
+    margin-right: 150px;
+    width: 700px;
+    justify-content: space-between;
+}
+.first .header .right li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.first .header .right .links ul {
+    margin-right: 30px;
+    font-size: 13px;
+}
+
+.first .header .right .button ul {
+    margin-right: 50px;
+    font-size: 13px;
+}
+.first .landing {
+    margin-top: 20px;
+}
+.first .landing .left {
+    width: 350px;
+    padding-top: 50px;
+}
+.first .landing .left .header {
+    font-size: 43px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.first .landing .left .para {
+    margin-top: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    color: gray;
+}
+.first .landing .left .button {
+    margin-top: 30px;
+}
+.first .landing .left .button button {
+    padding: 10px 15px;
+    border: 1px solid #FD8D3A;
+    border-radius: 5px;
+    color: #FD8D3A;
+}
+.first .landing {
+    display: flex;
+}
+
+.first .landing .right img {
+    width:600px;
+    height: 400px;
+    margin-left: 30px;
+}
+.first .tip {
+    margin-top: 45px;
+    margin-left: 110px;
+}
+.first .tip .box {
+    width: 630px;
+    height: 100px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.first .tip .box div {
+    margin-right: 50px;
+}
+.first .tip .box .title{
+    font-size: 13px;
+    font-weight: 500; 
+}
+.first .tip .box .fa-chevron-down {
+    color: #FD8D3A;
+     font-size: 10px;   
+}
+.first .tip .box .sub {
+    font-size: 10px;
+    margin-top: 8px;
+    color: gray;
+}
+.first .tip .box button {
+    margin-left: 30px;
+    background-color: #FA7436;  
+    border: none;
+    border-radius: 5px;
+    color: #FEFCFB; 
+    padding: 10px 20px;
+}
+.body2 {
+     background-color: #F7F8FC;
+}
+.body2 .second {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.second .header {
+    display: flex;
+    justify-content: center;
+}
+.second .header .top {
+    width: 370px;
+}
+.second .header .top .title {
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.second .header .top .sub {
+    margin-top: 20px;
+    width: 320px;
+   font-size: 12px;
+   text-align: center;
+    line-height: 25px;
+    color: gray;   
+}
+.second .cards{
+    margin-top: 30px;
+    width: 850px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.second .cards .card {
+    position: relative;
+    width: 230px;
+    height: 150px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.cards .card img {
+    width: 30px;
+}
+.cards .card .desc {
+    margin-top: 25px;
+}
+.cards .card .desc .title {
+    font-size: 16px;
+    font-weight: 600;
+}
+.cards .card .desc .about {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray;   
+}
+body .body3 {
+     background-color: #FEFCFB;
+}
+.body3 .third {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.body3 .third .header {
+    width: 500px;
+    margin-left: 200px;
+}
+.body3 .third .header .title {
+    width: 500px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.body3 .third .header .desc {
+    width: 270px;
+    margin-top: 8px;
+    margin-left:90px;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray; 
+    text-align: center;
+}
+ .cards {
+   margin-top: 50px;
+   width: 850px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.cards .card {
+    height:250px;
+    width: 190px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+}
+ .cards .card .image {
+     height: 68%; /* image covers half the card */
+     width: 100%;
+     overflow: hidden;
+}
+.cards .card .image img {
+     width: 100%;
+     height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.cards .card .title {
+    display: flex;
+    justify-content: space-between;
+    margin:17px 10px 5px 10px;
+}
+.cards .card  .rating {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cards .card .title .name {
+    font-size: 14px;
+    font-weight: 500;
+}
+ .cards .card .rating .fa-star {
+    font-size: 9px;
+    color: gold;
+}
+.cards .card .rating p {
+    font-size: 11px;
+    color: gray;
+}
+.cards .card .desc {
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.cards .card .desc .left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11px;
+    color: gray;
+}
+.cards .card .desc .left .fa-location-dot {
+   margin-right: 5px;
+}
+.cards .card .desc .right
+{
+   display: flex;
+   justify-content: space-between;
+    align-items: center;
+    font-size: 11px;
+    color: gray;
+}
+ .cards .card .desc .right .real {
+    background-color: #FFE7DB;
+    color: #FA7436;
+    padding: 1px 2px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.body3 .third .nav {
+    margin-left: 392px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+}
+ .fa-circle-arrow-left {
+    color: slategrey;
+    font-size: 28px;
+}
+.fa-circle-arrow-right {
+    color: #FA7436;
+    font-size: 28px;
+}
+
+.body3 .third .headers1 {
+    width: 250px;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-around;
+}
+.body3 .third .headers1 .title {
+    width: 350px;
+    font-size: 34px;
+    font-weight: 600;
+    margin-left: 27px;
+    font-family: "Volkhov", serif !important;
+}
+.body3 .third .headers1 .desc {
+    width: 350px;
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray; 
+    text-align: center;
+}
+
+.body3 .third .headers1 .image img {
+    width:80px;
+}
+.body3 .third .cards .card .title .rate {
+    font-size: 14px;
+    font-weight: 600;
+    color : #FA7436;
+}
+.body3 .third .cards .card .desc .left .fa-paper-plane {
+   margin-right: 5px;
+}
+.body4 {
+     background-color: #F7F8FC;
+}
+.body4 .four {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.body4 .four .right{
+    margin-left: 120px;
+}
+.body4 .four .left .header .title p {
+    width: 250px;
+     font-size: 34px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.body4 .four .left .header .desc p {
+    width: 330px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    color: gray; 
+}
+.body4 .four .right .card  {
+    position: relative;
+}
+.body4 .four .right .card .box {
+   position:relative;
+   height:190px;
+   width: 350px;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+   z-index: 10;
+}
+.body4 .four .right .card .duplicate {
+    position: absolute;
+    top:70px;
+    left: 60px;
+    height:190px;
+    width: 350px;
+    border-radius: 5px;
+    background-color: #F7F8FC;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    z-index: 1;
+}
+.body4 .four .right .card .box img {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 50px;
+    height: 50px;
+}
+.body4 .four .right .card .box .content {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.body4 .four .right .card .box .content .about {
+    width: 290px;
+    margin-bottom: 30px;
+}
+.body4 .four .right .card .box .content .about p{
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 500;
+}
+.body4 .four .right .card .duplicate  .sign {
+    margin-top: 130px;
+    margin-left: 20px;
+}
+.body4 .four .right .card .duplicate  .sign  .name {
+    font-size: 12px;
+    line-height: 25px;
+    color:gray;
+    font-weight: 600;
+}
+.body4 .four .right .card .duplicate  .sign .place{
+    font-size: 11px;
+    color:gray;
+    font-weight: 500;
+}
+.body4 .four .right .card .box  .sign .name {
+    font-size: 12px;
+    line-height: 25px;
+    font-weight: 600;
+}
+.body4 .four .right .card .box  .sign .place{
+    font-size: 11px;
+    color:gray;
+    font-weight: 500;
+}
+.body4 .four .img {
+    margin-left: 80px;
+}
+.body4 .four .img img {
+    width: 120px;
+    height: 120px;
+}
+body .body5 {
+     background-color: #FEFCFB;
+     padding-bottom: 220px;
+}
+.body5 .five {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.body5 .five .header p {
+    width: 450px;
+    margin-left: 170px;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.body6 {
+     background-color: #F7F8FC;
+}
+.body6 .six {
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-right: 190px;
+    margin-left: 290px;
+}
+.body6 .six .subscribe {
+    position: absolute;
+    overflow: hidden;
+    top:-150px;
+    width: 850px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #FA7436;
+}
+.body6 .six .subscribe .top {
+    display: flex;
+}
+.body6 .six .subscribe .header p {
+    margin-top: 50px;
+    color: #F7F8FC;
+    width: 450px;
+    text-align: center;
+    margin-left: 190px;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Volkhov", serif !important;
+}
+.body6 .six .subscribe .image_1 img {
+    margin-top: 10px;
+    margin-left: 120px;
+    height: 90px;
+    width: 90px;
+}
+.body6 .six .search {
+    display: flex;
+}
+.body6 .six .search .image_2 img {
+    height: 190px;
+}
+.body6 .six .search .input {
+    position: relative;
+}
+.body6 .six .search .input .text {
+    position: absolute;
+    z-index: 1;
+    left: -90px;
+    margin-top: 50px;
+    width:450px;
+    height:50px;
+    border: none;
+    border-radius: 5px;
+}
+.body6 .six .search .input .btn {
+    position: absolute;
+    background-color: #FA7436;
+    color: #F7F8FC;
+    padding: 10px 10px 10px 10px;
+    width: 120px;
+    border: none;
+    border-radius: 7px;
+    top:57px;
+    left: 240px;
+    z-index: 10;
+    font-family: 'Poppins';
+    font-size: 12px;
+} 
+.body6 .six .footer {
+    margin-top: 120px;
+}
+.body6 .six .footer .left .title {
+   display: flex;
+    align-items: center;
+}
+
+.six .footer .left .title p {
+    font-size: 18px;
+    font-family: 'Volkhov', serif !important;
+}
+.six .footer .left .title img {
+    height: 14px;
+    margin-left: 5px;
+}
+.six .footer .left .desc {
+   font-size: 11px;
+    color:gray;
+    font-weight: 500;
+    width: 190px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.six .footer .left .icons i {
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 100%;
+    padding: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.six .footer{
+    display: flex;
+    width: 830px;
+    justify-content: space-between;
+}
+.six .footer .right {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+.six .footer .right .first .title p{
+    font-size: 13px;
+    font-weight: 600;
+}
+.six .footer .right .first .list p {
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: 400;
+    color:gray;
+}
+.six .copy {
+    margin-top: 30px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+}
+.six .copy p{
+    font-size: 11px;
+    font-weight: 400;
+    color:gray;
+}
