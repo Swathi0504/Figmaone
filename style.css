@@ -161,10 +161,7 @@ body .body1 {
     color: gray;   
 }
 .second .cards{
-    margin-top: 30px;
     width: 850px;
-    display: flex;
-    justify-content: space-evenly;
 }
 .second .cards .card {
     position: relative;
@@ -172,8 +169,8 @@ body .body1 {
     height: 150px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
-    padding-left: 30px;
-    padding-top: 30px;
+    padding-left: 30px!important;
+    padding-top: 30px!important;
 }
 .cards .card img {
     width: 30px;
