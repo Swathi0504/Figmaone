@@ -10,16 +10,18 @@ body {
     font-family: "Poppins", sans-serif;
     overflow-y: auto;
 }
+
 body .body1 {
      background-color: #FEFCFB;
 }
 .body1 .first {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 100px 300px;
 }
 .first .header {
+    max-width: 1070px;
+    
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,14 +137,13 @@ body .body1 {
      background-color: #F7F8FC;
 }
 .body2 .second {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+     max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 100px 300px;
 }
 .second .header {
     display: flex;
-    justify-content: center;
+    margin-left: 250px; 
 }
 .second .header .top {
     width: 370px;
@@ -192,10 +193,9 @@ body .body3 {
      background-color: #FEFCFB;
 }
 .body3 .third {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 100px 300px;
 }
 .body3 .third .header {
     width: 500px;
@@ -346,10 +346,9 @@ body .body3 {
 }
 .body4 .four {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px 150px 350px;
 }
 .body4 .four .right{
     margin-left: 120px;
@@ -448,10 +447,9 @@ body .body5 {
      padding-bottom: 220px;
 }
 .body5 .five {
-    padding-top: 50px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 100px 300px;
 }
 .body5 .five .header p {
     width: 450px;
@@ -465,10 +463,9 @@ body .body5 {
 }
 .body6 .six {
     position: relative;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    margin-right: 190px;
-    margin-left: 290px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px 50px 300px;
 }
 .body6 .six .subscribe {
     position: absolute;
