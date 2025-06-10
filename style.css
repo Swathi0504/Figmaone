@@ -16,6 +16,7 @@ body .body1 {
 }
 .body1 .first {
     max-width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px 100px 300px;
 }
@@ -137,6 +138,7 @@ body .body1 {
      background-color: #F7F8FC;
 }
 .body2 .second {
+    max-width: 1200px;
      max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px 100px 300px;
@@ -193,6 +195,7 @@ body .body3 {
      background-color: #FEFCFB;
 }
 .body3 .third {
+    max-width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px 100px 300px;
@@ -347,6 +350,7 @@ body .body3 {
 .body4 .four {
     display: flex;
     max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 100px 20px 150px 350px;
 }
@@ -448,6 +452,7 @@ body .body5 {
 }
 .body5 .five {
     max-width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px 100px 300px;
 }
@@ -463,6 +468,7 @@ body .body5 {
 }
 .body6 .six {
     position: relative;
+    max-width: 1200px;
     max-width: 1200px;
     margin: 0 auto;
     padding: 50px 20px 50px 300px;
